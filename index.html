@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realme(India) - Dare To Leap</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://www.rvsolutions.in/wp-content/uploads/2022/06/realme-logo-1.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="section-header">
+      <img
+        src="https://www.rvsolutions.in/wp-content/uploads/2022/06/realme-logo-1.png"
+        alt="Realme logo"
+        id="logo"
+      />
+      <h1>Realme</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a href="#section-content"
+              ><button class="button-feature">Features</button></a
+            >
+          </li>
+          <li>
+            <a href="#youtube-video"
+              ><button class="button-working">How it works</button></a
+            >
+          </li>
+          <li>
+            <a href="#section-smartphones"
+              ><button class="button-pice">Price</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="section-content">
+      <div class="subscribe-box">
+        <p>To recieve early updates</p>
+        <button onclick="openbox()" class="subscribe-button">
+          Subcribe Me
+        </button>
+        <div id="forms">
+          <span class="close-icon" onclick="closebox()">&times;</span>
+          <form action="">
+            <label for="name">Name</label> <br />
+            <input
+              type="text"
+              name="Name"
+              id="name"
+              required
+              placeholder="Enter your name"
+            /><br />
+            <label for="email">Email</label> <br />
+            <input
+              type="email"
+              name="Email"
+              id="mail"
+              required
+              placeholder="Enter your email"
+            /><br />
+            <label for="phonenumber">Mobile number</label> <br />
+            <input
+              type="number"
+              name="Phone number"
+              id="number"
+              required
+              minlength="10"
+              placeholder="Enter your number "
+            />
+            <br />
+            <button onclick="closebox()">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="features-slideshow">
+        <div class="slideimages">
+          <img
+            class="images"
+            src="https://img.freepik.com/premium-vector/fast-delivery-truck-with-motion-lines-online-delivery-express-delivery-quick-move-fast-shipping-truck-apps-websites-cargo-van-moving-fast-chronometer-fast-distribution-service-24-7_435184-218.jpg?w=2000"
+            alt="free shipping"
+          />
+          <img
+            src="https://cocobayresort.com/wp-content/uploads/2020/06/secure-payment.jpg"
+            alt="secure payment"
+            class="images"
+          />
+          <img
+            src="https://okcredit-blog-images-prod.storage.googleapis.com/2021/05/cashondelivery1.jpg"
+            alt="cash on delivery"
+            class="images"
+          />
+          <img
+            src="https://wedevs.s3.amazonaws.com/uploads/2020/07/Warranty-and-Return-Policy.jpg"
+            alt="warrenty and return"
+            class="images"
+          />
+        </div>
+        <div class="scroll-btn">
+          <input
+            onclick="btn(1)"
+            type="radio"
+            name="btn"
+            checked
+            class="button"
+          />
+          <input onclick="btn(2)" type="radio" name="btn" class="button" />
+          <input onclick="btn(3)" type="radio" name="btn" class="button" />
+          <input onclick="btn(4)" type="radio" name="btn" class="button" />
+        </div>
+        <div class="left-arrow">
+          <span onclick="arrow(-1)"><i class="fa fa-toggle-right"></i> </span>
+        </div>
+        <div class="right-arrow">
+          <span onclick="arrow(1)"><i class="fa fa-toggle-left"></i></span>
+        </div>
+      </div>
+    </div>
+    <div id="youtube-video">
+      <iframe
+        width="800"
+        height="450"
+        src="https://www.youtube.com/embed/mQUYQ5KAR3o"
+        title="Light Shift Design Concept Video | realme 9 Pro series 5G"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="section-smartphones">
+      <div class="smartphone-no-1">
+        <img
+          src="https://image01.realme.net/general/20220402/1648889469459.png"
+          alt="Realme 9 photo"
+        />
+        <div class="phone-1-specs">
+          <h2>Realme 9</h2>
+          <p>Meteor Black</p>
+          <p>6GB+128GB</p>
+          <p>Rs:17,999</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="smartphone-no-2">
+        <img
+          src="https://image01.realme.net/general/20220425/1650863596964.png"
+          alt="Realme 9 5G photo"
+        />
+        <div class="phone-2-specs">
+          <h2>Realme 9</h2>
+          <p>Stargaze White</p>
+          <p>6GB+128GB</p>
+          <p>Rs:17,499</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="smartphone-no-3">
+        <img
+          src="https://image01.realme.net/general/20220131/1643635073548.png"
+          alt="Realme 9 photo"
+        />
+        <div class="phone-3-specs">
+          <h2>Realme 9 Pro+</h2>
+          <h2>5G</h2>
+          <p>Sunrise Blue</p>
+          <p>8GB+128GB</p>
+          <p>Rs:26,999</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="smartphone-no-4">
+        <img
+          src="https://image01.realme.net/general/20220126/1643190100859.png"
+          alt="Realme 9 photo"
+        />
+        <div class="phone-4-specs">
+          <h2>Realme 9i</h2>
+          <p>Prism Black</p>
+          <p>4GB+64GB</p>
+          <p>Rs:13,499</p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li><button class="button-privacy">Privacy</button></li>
+        <li><button class="button-terms">Terms</button></li>
+        <li><button class="button-contact">Contact</button></li>
+      </ul>
+      <p>Copyright2022,Realme</p>
+    </footer>
+  </body>
+</html>
