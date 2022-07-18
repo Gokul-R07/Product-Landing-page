@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  border: 8px ridge rgb(230, 146, 22);
+  color: white;
+  position: fixed;
+  width: 100%;
+  margin-top: 5px;
+}
+.section-header {
+  background-color: black;
+  height: 100px;
+}
+#logo {
+  width: 100px;
+  height: 60px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 45px;
+  margin-right: 20px;
+}
+header h1 {
+  padding-top: 20px;
+  width: 269px;
+}
+header h1:hover,
+footer p:hover {
+  color: rgb(230, 146, 22);
+}
+.button-feature:hover,
+.button-working:hover,
+.button-pice:hover,
+.button-privacy:hover,
+.button-terms:hover,
+.button-contact:hover {
+  background-color: rgb(230, 146, 22);
+  color: black;
+}
+#nav-bar ul {
+  float: right;
+  display: flex;
+  margin-top: -35px;
+  list-style: none;
+}
+#nav-bar a {
+  text-decoration: none;
+  margin-right: 100px;
+}
+.button-feature,
+.button-working,
+.button-pice,
+.button-privacy,
+.button-terms,
+.button-contact {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkturquoise;
+  cursor: pointer;
+  color: white;
+}
+header {
+  background-color: white;
+  height: 80px;
+}
+#section-content {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+}
+.subscribe-box {
+  margin-top: 160px;
+  border: 5px solid black;
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+  border-radius: 36px;
+  background: linear-gradient(45deg, blue, red);
+  color: white;
+}
+.subscribe-box p {
+  text-align: center;
+  padding: 40px 0px;
+}
+.subscribe-button {
+  padding: 15px;
+  margin-left: 85px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background-color: yellow;
+}
+.subscribe-button:hover{
+  background-color: black;
+  color: white;
+}
+.close-icon{
+  color: white;
+  float: right;
+  margin: 20px 30px;
+  transform: scale(2.5);
+  cursor: pointer;
+}
+.close-icon:hover{
+   color: orange;
+}
+#forms {
+  border: 5px solid black;
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 400px;
+  border-radius: 36px;
+  position:absolute;
+  top:150px;
+  left:80px;
+  font-family: 'Inconsolata', monospace;
+  background-color: black;
+  border:10px solid orange;
+  display: none;
+}
+#forms label{
+  display: inline-block;
+  margin: 10px 20px;
+  color:white;
+}
+#forms input{
+  padding: 10px;
+  margin: 10px 40px;
+  width: 280px;
+  border-radius: 30px;
+  background-color:white   ;
+}
+#forms input::placeholder{
+  font-family: 'Inconsolata', monospace;
+}
+#forms input:hover{
+  background-color:white ;
+}
+#forms button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  position: absolute;
+  left: 190px;
+  border:none;
+  background-color: darkturquoise;
+  color:black;
+  cursor: pointer;
+}
+#forms button:hover{
+  background-color: orange;
+  color: black;
+}
+#youtube-video {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+iframe {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+footer {
+  background-color: black;
+  border: 8px ridge rgb(230, 146, 22);
+  height: 140px;
+  color: white;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  margin-left: 555px;
+}
+footer li {
+  cursor: pointer;
+  padding-top: 25px;
+  margin-right: 80px;
+}
+footer p {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+#section-smartphones {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Pacifico', cursive;
+}
+.smartphone-no-1,
+.smartphone-no-2,
+.smartphone-no-3,
+.smartphone-no-4 {
+  width: 585px;
+  height: 400px;
+  margin: 50px 85px;
+  border-radius: 20px;
+  background-color: rgb(230, 146, 22);
+  color: black;
+}
+.smartphone-no-1:hover,
+.smartphone-no-2:hover,
+.smartphone-no-3:hover,
+.smartphone-no-4:hover {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0.2), 0 6px 12px 0 rgb(0, 0, 0.19);
+}
+.smartphone-no-1 img,
+.smartphone-no-2 img,
+.smartphone-no-3 img,
+.smartphone-no-4 img {
+  width: 350px;
+  height: 350px;
+  float: left;
+  object-fit: cover;
+  margin-top: 23px;
+}
+.phone-1-specs,
+.phone-1-specs,
+.phone-2-specs,
+.phone-3-specs,
+.phone-4-specs {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.phone-1-specs h2,
+.phone-1-specs p,
+.phone-2-specs h2,
+.phone-2-specs p,
+.phone-3-specs h2,
+.phone-3-specs p,
+.phone-4-specs h2,
+.phone-4-specs p {
+  padding: 10px;
+}
+.phone-1-specs button,
+.phone-2-specs button,
+.phone-3-specs button,
+.phone-4-specs button {
+  margin: 10px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.phone-1-specs button:hover,
+.phone-2-specs button:hover,
+.phone-3-specs button:hover,
+.phone-4-specs button:hover {
+  background-color: darkturquoise;
+  color: black;
+}
+.features-slideshow {
+  margin-top: 50px;
+  border: 15px double black;
+  width: 750px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slideimages {
+  width: 600px;
+  height: 300px;
+  border: 5px solid orange;
+  overflow: hidden;
+
+}
+
+.slideimages img {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  animation:slide 8s ease-in-out infinite;
+}
+.scroll-btn {
+  position: absolute;
+  top: 510px;
+  left: 62%;
+  accent-color: red;
+  border: none;
+}
+.scroll-btn input {
+  margin-left: 10px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.left-arrow i,
+.right-arrow i {
+  font-size: 40px;
+  position: absolute;
+  color: red;
+  cursor: pointer;
+}
+.left-arrow i {
+  top: 330px;
+  left: 42.2%;
+}
+.right-arrow i
+ {
+  top: 330px;
+  left: 85.5%;
+}
+.left-arrow i:hover,
+.right-arrow i:hover {
+  color: darkturquoise;
+}
